@@ -2,25 +2,37 @@
 <html lang="pt-BR">
 <head>
   <meta charset="UTF-8">
-  <title>Meu Site Oficial</title>
-  <style>
-    body {
-      font-family: Arial, sans-serif;
-      background-color: #f4f4f4;
-      text-align: center;
-      padding: 50px;
-    }
-    h1 {
-      color: #333;
-    }
-    p {
-      color: #555;
-    }
-  </style>
+  <title>Padaria do João</title>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
-  <h1>Bem-vindo ao meu site!</h1>
-  <p>Este é um teste do GitHub Pages. 🚀</p>
+  <header>
+    <h1>Bem-vindo à <span class="nome">Padaria do João</span>!</h1>
+  </header>
+
+  <section class="sobre">
+    <h2>Sobre nós</h2>
+    <p>Produzimos pães fresquinhos todos os dias, com qualidade e tradição.</p>
+  </section>
+
+  <section class="servicos">
+    <h2>Produtos</h2>
+    <ul>
+      <li>🥖 Pão francês</li>
+      <li>🍞 Pão de forma</li>
+      <li>🥐 Croissant</li>
+    </ul>
+  </section>
+
+  <section class="contato">
+    <h2>Contato</h2>
+    <p>📍 Endereço: Rua Central, 45 - Jaciara/MT</p>
+    <p>📞 Telefone: (65) 98888-8888</p>
+    <p>💬 WhatsApp: <a href="https://wa.me/5565988888888" target="_blank">Clique aqui</a></p>
+  </section>
+
+  <footer>
+    <p>&copy; 2026 Padaria do João - Todos os direitos reservados.</p>
+  </footer>
 </body>
 </html>
-<img src="images/burger.png" alt="Hambúrguer delicioso">
